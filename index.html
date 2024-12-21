@@ -8,6 +8,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Added CSS for better formatting */
+        .education-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .education-section li {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+
+        .education-section li strong {
+            font-weight: bold;
+        }
+
+        .project-description {
+            font-style: italic;
+        }
+
+        .education-section ul ul {
+            margin-top: 5px;
+            padding-left: 20px;
+            list-style: disc;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,13 +49,13 @@
                 <i class="fab fa-linkedin"></i>
             </a>
             <a href="https://scholar.google.com/citations?user=cVUnhukAAAAJ&hl=en" target="_blank">
-                <i class="fas fa-user-graduate"></i> <!-- Using a graduation cap to represent Google Scholar -->
+                <i class="fas fa-user-graduate"></i>
             </a>
             <a href="https://github.com/mfhchehade" target="_blank">
                 <i class="fab fa-github"></i>
             </a>
             <a href="https://twitter.com/MFHChehade" target="_blank">
-                <i class="fab fa-twitter"></i> <!-- Twitter icon -->
+                <i class="fab fa-twitter"></i>
             </a>
             <a href="mailto:chehade@utexas.edu">
                 <i class="fas fa-envelope"></i>
@@ -50,37 +78,70 @@
         <section class="section" id="about">
             <h2>About</h2>
             <p>
-                Write a brief introduction about yourself, your background, and what you do.
+                Welcome! I am <strong>Mohamad Fares El Hajj Chehade</strong>, a <strong>Ph.D. student</strong> in <strong>Electrical and Computer Engineering</strong> at 
+                <a href="https://www.utexas.edu/" target="_blank">The University of Texas at Austin</a>, where I work under the guidance of 
+                <a href="https://sites.utexas.edu/haozhu/" target="_blank">Dr. Hao Zhu</a>. My research focuses on 
+                <strong>Risk-aware Transfer in Reinforcement Learning</strong> and <strong>Physics-aware Supervised Learning</strong>, with applications in power and energy systems.
+            </p>
+            <p>
+                I hold a <strong>B.Eng. in Electrical and Computer Engineering</strong> with a minor in Mathematics from the 
+                <a href="https://www.aub.edu.lb/" target="_blank">American University of Beirut (AUB)</a>. During my undergraduate studies, I developed a strong foundation 
+                in <strong>power and energy systems</strong>, culminating in my 
+                <em>Final Year Project</em> on <strong>Optimal Power Flow via Machine Learning</strong>, supervised by 
+                <a href="https://scholar.google.com/citations?user=MUMy5mcAAAAJ&hl=en" target="_blank">Dr. Rabih Jabr</a>, and my 
+                <em>Research Project</em> on <strong>Microgrid Sizing using Ordinal Optimization</strong>, supervised by 
+                <a href="https://scholar.google.com/citations?user=P8z1S1YAAAAJ&hl=en" target="_blank">Dr. Sami Karaki</a>.
+            </p>
+            <p>
+                I have also gained valuable experience through internships and research assistantships at prestigious institutions, including 
+                <a href="https://www.lanl.gov/" target="_blank">Los Alamos National Laboratory</a> and the 
+                <a href="https://www.energy.uconn.edu/" target="_blank">University of Connecticut’s Center for Clean Energy Engineering</a>. My work spans 
+                neural network verification, fault diagnosis for power inverters, and the development of sustainable energy solutions.
+            </p>
+            <p>
+                Outside academia, I enjoy playing and watching <strong>soccer</strong>, and I'm an avid participant in related games like 
+                <strong>Fantasy Premier League</strong> and <strong>FIFA</strong>. These activities allow me to relax, strategize, and connect with fellow enthusiasts.
+            </p>
+            <p>
+                You can connect with me on <a href="https://www.linkedin.com/in/mfhchehade/" target="_blank"><strong>LinkedIn</strong></a>, 
+                view my research on <a href="https://scholar.google.com/citations?user=cVUnhukAAAAJ&hl=en" target="_blank"><strong>Google Scholar</strong></a>, or explore my 
+                projects on <a href="https://github.com/mfhchehade" target="_blank"><strong>GitHub</strong></a>.
             </p>
         </section>
 
         <section class="section" id="news">
             <h2>News</h2>
             <div class="news-item">
-                <p><strong>Date:</strong> News headline or update goes here.</p>
+                <p><strong>Oct 16:</strong> Awarded Best Graduate Presentation Award at <strong>NAPS 2024</strong></p>
             </div>
             <div class="news-item">
-                <p><strong>Date:</strong> Another news item goes here.</p>
+                <p><strong>Aug 31:</strong> Paper accepted to <strong>NAPS 2024</strong>. You can view the paper <a href="https://ieeexplore.ieee.org/document/10741791" target="_blank">here</a>.</p>
             </div>
         </section>
 
-        <section class="section" id="education">
+        <section class="section education-section" id="education">
             <h2>Education</h2>
             <ul>
                 <li>
-                    <strong>Ph.D. in Electrical and Computer Engineering</strong>, The University of Texas at Austin, Aug. 2023 - Present
-                    <ul>
-                        <li>Advisor: <a href="https://sites.utexas.edu/haozhu/">Dr. Hao Zhu</a></li>
-                        <li>Research Interest: Risk-aware Transfer in Reinforcement Learning, Physics-aware Supervised Learning</li>
-                    </ul>
+                    <div>
+                        <strong>Ph.D. in Electrical and Computer Engineering</strong>, The University of Texas at Austin
+                        <ul>
+                            <li>Advisor: <a href="https://sites.utexas.edu/haozhu/">Dr. Hao Zhu</a></li>
+                            <li>Research Interest: Risk-aware Transfer in Reinforcement Learning, Physics-aware Supervised Learning</li>
+                        </ul>
+                    </div>
+                    <span>Aug. 2023 - Present</span>
                 </li>
                 <li>
-                    <strong>B.Eng. in Electrical and Computer Engineering</strong>, American University of Beirut, Aug. 2019 - Jun. 2023
-                    <ul>
-                        <li>Minor in Mathematics</li>
-                        <li>Final Year Project: Optimal Power Flow via Machine Learning (Advisor: <a href="https://scholar.google.com/citations?user=MUMy5mcAAAAJ&hl=en">Dr. Rabih Jabr</a>)</li>
-                        <li>Research Project: Microgrid Sizing using Ordinal Optimization (Advisor: <a href="https://scholar.google.com/citations?user=P8z1S1YAAAAJ&hl=en">Dr. Sami Karaki</a>)</li>
-                    </ul>
+                    <div>
+                        <strong>B.Eng. in Electrical and Computer Engineering</strong>, American University of Beirut
+                        <ul>
+                            <li>Minor in Mathematics</li>
+                            <li><span class="project-description">Final Year Project:</span> Optimal Power Flow via Machine Learning (Advisor: <a href="https://scholar.google.com/citations?user=MUMy5mcAAAAJ&hl=en">Dr. Rabih Jabr</a>)</li>
+                            <li><span class="project-description">Research Project:</span> Microgrid Sizing using Ordinal Optimization (Advisor: <a href="https://scholar.google.com/citations?user=P8z1S1YAAAAJ&hl=en">Dr. Sami Karaki</a>)</li>
+                        </ul>
+                    </div>
+                    <span>Aug. 2019 - Jun. 2023</span>
                 </li>
             </ul>
         </section>
